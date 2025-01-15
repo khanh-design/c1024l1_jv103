@@ -12,16 +12,20 @@ public class ViewMain {
         System.out.println("Moi nguoi dung nhap vao canh side3: ");
         double canh3 = scanner.nextDouble();
 
-        System.out.println("Moi nhap mau cua tam giac: ");
-        String mau = scanner.next();
 
-        Triangle triangle = new Triangle(canh1, canh2, canh3, mau, false);
+        if (canh1 + canh2 > canh3 && canh1 + canh3 > canh2 && canh2 + canh3 > canh1) {
+            System.out.println("Moi nhap mau cua tam giac: ");
+            String mau = scanner.next();
 
-        System.out.println("---------------Tam Giac-----------------");
-        System.out.println("Color: " + triangle.getColor());
-        System.out.println("Area: " + triangle.getArea());
-        System.out.println("Perimeter: " + triangle.getPerimeter());
+            Triangle triangle = new Triangle(canh1, canh2, canh3, mau, false);
 
+            System.out.println("---------------Tam Giac-----------------");
+            System.out.println("Color: " + triangle.getColor());
+            System.out.println("Area: " + triangle.getArea());
+            System.out.println("Perimeter: " + triangle.getPerimeter());
+        } else {
+            System.out.println("khong phai la tam giac thuong");
+        }
         scanner.close();
     }
 }
