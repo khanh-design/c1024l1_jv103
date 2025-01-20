@@ -23,6 +23,6 @@ public class StudentManager implements Manager {
     }
 
     public boolean isAdmin(Object obj) {
-        return obj.getRole().equals(Role.ROLE_ADMIN);
+        return obj.equals(Role.ROLE_ADMIN);
     }
 }
