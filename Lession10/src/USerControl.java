@@ -27,10 +27,10 @@ public class USerControl<T> {
     public void search(String name) {
         // Chua nhung doi tuong khi search
         List<User> data = new ArrayList<>();
-        for (User user : list) {
-            if (user.get_name().equals(name)) {
-                data.add(user);
-            }
+        for (T user : list) {
+//            if (user.get_name().equals(name)) {
+//                data.add(user);
+//            }
         }
         System.out.println("total user: " + data.size());
         for (User user : data) {
