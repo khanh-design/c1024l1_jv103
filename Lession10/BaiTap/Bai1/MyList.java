@@ -1,4 +1,4 @@
-package BaiTap;
+package BaiTap.Bai1;
 
 import java.util.Arrays;
 

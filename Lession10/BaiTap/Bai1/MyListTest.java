@@ -1,4 +1,4 @@
-package BaiTap;
+package BaiTap.Bai1;
 
 public class MyListTest {
     public static void main(String[] args) {
