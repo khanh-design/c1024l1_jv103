@@ -17,5 +17,8 @@ public class MyListTest {
 //        System.out.println("element 6: " + listInteger.get(6));
         listInteger.get(-1);
         System.out.println("elemenbt -1: " + listInteger.get(-1));
+
+//        listInteger.get(0);
+//        System.out.println("element 0: " + listInteger.get(0));
     }
 }
