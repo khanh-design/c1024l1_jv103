@@ -1,4 +1,4 @@
-package Bai2;
+package BaiTap.Bai2;
 
 public class MyLinkedListQueue implements IMyLinkedListQueue {
     public Node head;

@@ -1,4 +1,4 @@
-package Bai2;
+package BaiTap.Bai2;
 
 public interface IMyLinkedListQueue {
     void enqueue(int key);

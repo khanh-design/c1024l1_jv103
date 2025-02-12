@@ -1,4 +1,4 @@
-package Bai2;
+package BaiTap.Bai2;
 
 public class MyLinkedListQueueClient {
     public static void main(String[] args) {
