@@ -3,7 +3,7 @@ package BaiTap.Bai4;
 import javax.swing.tree.TreeNode;
 
 public class BST<E extends Comparable<E>> extends AbstractTree<E> {
-    protected TreeNode<E> root;
+    protected TreeNode root;
     protected int size = 0;
 
     public BST() {
