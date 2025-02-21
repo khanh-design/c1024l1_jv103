@@ -77,7 +77,7 @@ public class Demo {
                     try {
                         System.out.println("Danh sach san pham duoc sap xep: ");
                         ArrayList<Product> products5 = new ArrayList<Product>();
-                        productSerive.Sort(products5.getFirst().getPrice());
+//                        productSerive.Sort(products5.lastFirst().getPrice());
                     } catch (Exception e) {
                         System.out.println("Loi phuong thuc nay. Vi khong sap xep theo gia duoc: ");
                     }
