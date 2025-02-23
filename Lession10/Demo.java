@@ -72,8 +72,8 @@ public class Demo {
 //        USerControl<Person> userControl2 = new USerControl<>();
 
         //  wrapper class - Object cua kieu du lieu nguyen thuy
-        User<Double, String> u1 = new User<Double, String>("An", 20.0, "20/11/2024");
-        User<Integer, String> u2 = new User<Integer, String>("An", 20, "20/11/2024");
-        User<String, String> u3 = new User<>("Khanh", "20", "20/11/2024");
+//        User<Double, String> u1 = new User<Double, String>("An", 20.0, "20/11/2024");
+//        User<Integer, String> u2 = new User<Integer, String>("An", 20, "20/11/2024");
+//        User<String, String> u3 = new User<>("Khanh", "20", "20/11/2024");
     }
 }

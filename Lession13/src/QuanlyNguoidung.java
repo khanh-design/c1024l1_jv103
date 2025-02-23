@@ -1,5 +1,8 @@
 package src;
 
+import src.exceptions.IndexInvalid;
+import src.exceptions.IndexNotFound;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,7 +26,13 @@ public class QuanlyNguoidung {
         }
     }
 
-    public void removeUser(int index) {
+    public void removeUser(int index) throws IndexNotFound, IndexInvalid {
+        if (index < 0) {
+            throw new IndexInvalid("index must be greater than 0");
+        }
+        if (index > list.size() - 1) {
+            throw new IndexNotFound("Index not Found");
+        }
         this.list.remove(index);
     }
 
