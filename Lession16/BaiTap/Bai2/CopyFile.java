@@ -15,7 +15,7 @@ public class CopyFile {
         /*
         * Buoc 1: Kiem tra file
         * Buoc 2: Tao thu muc
-        * Buoc 3: Kiem tep target tong tai khong
+        * Buoc 3: Kiem tep target rong tai khong
         * Buoc 4: Sao chep tep
         * Buoc 5: Dem so ký tu trong tep nguon
         * */
@@ -32,7 +32,7 @@ public class CopyFile {
             Scanner sc = new Scanner(System.in);
             String answer = sc.nextLine().trim().toLowerCase();
             if (!answer.equals("y")) {
-                System.out.println("Qua trinh sao chep da bi huy.");
+                System.out.println("Progress copy exist.");
                 sc.close();
                 return;
             }
@@ -61,7 +61,7 @@ public class CopyFile {
             while ((c = bufferedReader.read()) != -1) {
                 charCount++;
             }
-            System.out.println("Số ký tự trong tệp nguồn: " + charCount);
+            System.out.println("Charcater in source file: " + charCount);
         } catch (FileNotFoundException e) {
             System.out.println("Error: " + e.getMessage());
         }
