@@ -43,7 +43,7 @@ public class Appstudent {
         students.add(new Student(5, "Nguyen Khac Nhat", "Ha Noi"));
         writeDataToFile("E:\\Learned_Tai_FPT\\c1024l1_jv103\\Lession17\\BaiTap\\Bai2\\student.txt", students);
 
-        List<Student> studentDataFromFile  = new ArrayList<Student>();
+        List<Student> studentDataFromFile  = readDataFromFile("E:\\Learned_Tai_FPT\\c1024l1_jv103\\Lession17\\BaiTap\\Bai2\\student.txt");
         for (Student student : studentDataFromFile) {
             System.out.println(student);
         }
