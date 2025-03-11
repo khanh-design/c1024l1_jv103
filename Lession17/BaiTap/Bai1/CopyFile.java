@@ -43,8 +43,8 @@ public class CopyFile {
         File destFile = new File(destPath);
 
         try {
-            copyFileUsingJava7Files(sourceFile, destFile);
-            //copyFileUsingStream(sourceFile, destFile);
+//            copyFileUsingJava7Files(sourceFile, destFile);
+            copyFileUsingStream(sourceFile, destFile);
             System.out.println("Copy completed successfully");
         } catch (IOException e) {
             System.out.println("Can't copy that file");
