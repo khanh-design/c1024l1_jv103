@@ -1,7 +1,5 @@
 package BaiTap.Bai2;
 
-import BaiTap.Bai1.MyListTest;
-
 public class MyLinkedListTest {
     public static void main(String[] args) {
         MyLinkedList test = new MyLinkedList(10);
