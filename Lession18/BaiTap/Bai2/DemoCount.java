@@ -9,7 +9,7 @@ public class DemoCount {
                 Thread.sleep(1000);
             }
         } catch (InterruptedException e) {
-            System.out.println("Main thrad interrupted");
+            System.out.println("Main thread interrupted");
         }
         System.out.println("Main thread run is done");
     }
